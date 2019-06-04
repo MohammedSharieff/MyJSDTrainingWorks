@@ -1,0 +1,29 @@
+class Parent 
+{
+	void show()
+	{
+		System.out.println("parent's show()");
+	}
+}
+
+//Inherited class
+class Child extends Parent
+{
+	void show()
+	{
+		System.out.println("child's show()");
+	}
+}
+
+class Main
+{
+	public static void main(String... Sharieff)
+	{
+		Child obj2= new Child();
+		obj2.show();
+		Parent obj3 = new Child();
+		obj3.show();
+
+	}
+
+}

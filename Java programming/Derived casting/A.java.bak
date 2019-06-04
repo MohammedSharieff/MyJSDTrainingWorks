@@ -1,0 +1,10 @@
+/*Derived casting - to convert from one class type to another class type , we should use derived casting */
+
+class A
+{
+
+	public static void main(String[] args) 
+	{
+		System.out.println("Hello World!");
+	}
+}

@@ -1,0 +1,18 @@
+class Overload2 
+{
+	public int test()
+	{
+		System.out.println(" from test(int)");
+		return 10;
+	}
+	public char test();
+	{
+		System.out.println("from test(int, int)");
+		return 'a';
+	}
+
+	public static void main(String[] args) 
+	{
+		System.out.println("Hello World!");
+	}
+}

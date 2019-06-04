@@ -1,0 +1,23 @@
+class Manager2 
+{
+	public static void main(String[] args) 
+	{
+		//String i = null;
+		//char j = null;
+		Object obj = null;
+		A a1 = null;
+		B b1= null;
+		C c1= null;
+		D d1= null;
+		System.out.println(obj);
+		System.out.println(a1);
+		obj=new Object();// creating a object in one part
+		a1 = new A();//creating an object in another part
+		b1 = new B();
+		c1 = new C();
+		d1 = new D();
+		System.out.println("Done");
+	}
+}
+
+/* we can assign a null value for the reference variable , but cannot assign to a data type directly*/

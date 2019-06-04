@@ -1,0 +1,32 @@
+class Manager30 
+{
+	public static void main(String[] args) 
+	{
+		A a1 = new C();
+		if(a1 instanceof A)
+		{
+			System.out.println("to A");
+			A a2 =  a1;
+
+           if(a1 instanceof B)
+		{
+			System.out.println("to B");
+			B b2 = (B) a1;
+		}
+
+		if (a1 instanceof C)
+		{
+		    System.out.println("to C");
+			C c2 = (C) a1;
+		}
+		if (a1 instanceof D)
+		{
+		    System.out.println("to D");
+			D d2 = (D) a1;
+		}
+
+	    }
+      }
+}
+
+//instanceof operator is used to check if the class is an instance of another class or not and this is to avoid the exceptions

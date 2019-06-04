@@ -1,0 +1,9 @@
+/*abstraction- hiding the implementation and showing the funtionality, it will hide the internal details*/
+
+abstract class A
+{
+	abstract void test1();
+		void test2()
+	{
+	}
+} 

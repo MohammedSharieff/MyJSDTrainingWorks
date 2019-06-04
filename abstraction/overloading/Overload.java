@@ -1,0 +1,20 @@
+class Overload 
+{
+	public static void test()
+	{
+		System.out.println("from test");
+	}
+
+	public static int test(int i)
+	{
+		System.out.println("from test(int)");
+		return i;
+	}
+	
+	public static void main(String[] args) 
+	{
+		test();
+		//System.out.println(test()); this will give error as there is no return value
+		System.out.println(test(10));
+	}
+}

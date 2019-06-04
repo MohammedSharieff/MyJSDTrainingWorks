@@ -1,0 +1,13 @@
+abstract class A1
+{
+	abstract void test1();
+		void test2()
+	{
+	}
+
+}
+	class E extends A1
+	{
+	} 
+	
+/* a method defined abstract must always be redefined in subclass, I.e overriding is compulsory or declare subclass as abstract */

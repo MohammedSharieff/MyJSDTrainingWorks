@@ -1,0 +1,4 @@
+interface G
+{
+	private int i = 10;
+}
